@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #C8CBE1;
+}
+
+header {
+    height: 57px;
+    background-color: #1E0F47;
+}
+.cabecalho {
+    height: 57px;
+    margin: 0 200px;
+}
+.logo {
+    float: right;
+    margin: 3.5px 0;
+    width: 70px;
+    height: 50px;
+    margin-right: 45%;
+}
+.info {
+    float: left;
+    color: #fff;
+}
+.menu {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 19px 5px;
+    transition: 0.2s;
+}
+.menu:hover {
+    background-color: #48A8DB;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.inicio{
+    padding: 17px 15px;
+}
+.perfil {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 11px 19px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.perfil > .inicio {
+    padding: 11px 0px;
+    padding-right: 70px;
+}
+.perfil2{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+    list-style: none;
+    padding: 19px 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.perfil2 > .inicio {
+    padding: 11px 25px;
+}
+.perfil2:hover, .perfil:hover {
+    background-color: #48A8DB;
+}
+
+.imgperfil {
+    height: 30px;
+    border-radius: 20px;
+}
+.nick{
+    display: inline-block;
+    position: absolute;
+    padding: 8px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.rank {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    justify-items: center;
+}
+
+.pontgeral {
+    text-align: center;
+}
+.pontgeral > div {
+    margin: 15px 20px 0px;
+    cursor: default;
+}
+.pontgeral > div > img {
+    width: 20px;
+    margin-right: 5px;
+}
+.pontgeral > div > h1 {
+    color: black;
+    display: inline-block;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5px 15px 0px;
+}
+tbody > div {
+    height: 50px;
+    overflow: auto;
+}
+td {
+    padding: 10px;
+}
+.esp {
+    background-color: #1E0F47;
+    color: #fff;
+    cursor: default;
+}
+.dados {
+    background-color: #e6e6e6;
+    cursor: default;
+}
+.meusdados {
+    background-color: #48A8DB;
+
+    cursor: default;
+}
+
+.jogos {
+    text-align: center;
+}
+.jogos > div > a {
+    display: inline-block;
+}
+.jogos > div > a > img {
+    width: 40px;
+}
+.jogos > div > h1 {
+    margin: 15px 20px 0px;
+    display: inline-block;
+}
+.pont, .vit, .part, .tempo {
+    display: inline-block;
+}
+.empty {
+    background-color: #dcdde1;
+    height: 38px;
+}
+
+@media screen and (max-width: 1200px){
+    .logo{
+        display: none;
+    }
+    .cabecalho{
+        margin: 0;
+    }
+    .info{
+        float: none;
+        text-align: center;
+    }
+}

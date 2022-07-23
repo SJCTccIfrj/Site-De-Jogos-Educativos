@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #C8CBE1;
+}
+
+header {
+    height: 57px;
+    background-color:#1E0F47;
+    box-shadow: 0px 5px black;
+}
+.cabecalho {
+    height: 57px;
+    margin: 0 200px;
+}
+.logo {
+    float: right;
+    margin: 3.5px 0;
+    width: 70px;
+    height: 50px;
+    margin-right: 45%;
+}
+.info {
+    float: left;
+    color: #fff;
+}
+.menu {
+    border-radius: 5px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 19px 8px;
+}
+.menu:hover {
+    background-color: #48A8DB;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 19px 19px;
+}
+.perfil2{
+    display: inline-block;
+    list-style: none;
+    padding: 19.5px 15px;
+    cursor: pointer;
+}
+.perfil2:hover {
+    background-color:  #48A8DB;
+}
+
+.imgperfil {
+    height: 30px;
+    border-radius: 20px;
+}
+.nick{
+    display: inline-block;
+    position: absolute;
+    padding: 8px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.dropContent {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+.drop:hover .dropContent {
+    display: block;
+    margin-top: 12px;
+}
+.drop:hover .dropContent li {
+    background-color: rgb(68, 68, 68);
+    padding: 19px 8px;
+}
+.drop:hover .dropContent li:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+h1 {
+    margin: 6px 0px;
+}
+.conteiner {
+    background-color: #dcdde1;
+    text-align: center;
+    width: 40rem;
+    height: 37rem;
+    margin: 0 auto;
+    border-left: solid transparent;
+    border-right: solid transparent;
+}
+.dados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+}
+.infos {
+    text-align: left;
+}
+.sla{
+    margin: 40px 0px;
+}
+.senha {
+    -webkit-text-security: disc;
+}
+
+.aviso {
+    margin: 5px 0px 20px;
+    opacity: 80%;
+}
+#senha {
+    width: 240px;
+    height: 45px;
+    padding: 5px 15px;
+    border: #341f97;
+    border-radius: 5px;
+}
+.button {
+    display: block;
+    margin: 15px auto;
+    background-color: #1E0F47;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.button:hover {
+    background-color: #48A8DB;
+    border:  #48A8DB;
+}
+.msg{
+    text-align: center;
+    color: black;
+    opacity: 80%;
+}
+.img {
+    margin-top: 10px;
+    height: 130px;
+    border-radius: 90px;
+}
+.nickname {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px){
+    .logo{
+        display: none;
+    }
+    .cabecalho{
+        margin: 0;
+    }
+    .info{
+        float: none;
+        text-align: center;
+    }
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #C8CBE1;
+}
+
+header {
+    height: 57px;
+    background-color:#1E0F47;
+} 
+.cabecalho {
+    height: 57px;
+    margin: 0 200px;
+}
+.logo {
+    float: right;
+    margin: 3.5px 0;
+    width: 70px;
+    height: 50px;
+    margin-right: 45%;
+}
+.info {
+    float: left;
+    color: #fff;
+}
+.menu {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 19px 5px;
+    transition: 0.2s;
+}
+.menu:hover {
+    background-color: #48A8DB;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.inicio{
+    padding: 17px 15px;
+}
+.perfil {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    padding: 11px 19px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.perfil > .inicio {
+    padding: 11px 0px;
+    padding-right: 70px;
+}
+.perfil2{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    right: 5px;
+    list-style: none;
+    padding: 19px 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.perfil2 > .inicio {
+    padding: 11px 25px;
+}
+.perfil2:hover, .perfil:hover {
+    background-color: #48A8DB;
+}
+
+.imgperfil {
+    height: 30px;
+    border-radius: 20px;
+}
+.nick{
+    display: inline-block;
+    position: absolute;
+    padding: 8px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.jogos {
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.conteiner {
+    display: inline-block;
+    margin: 0 7px;
+    transition: 0.3s;
+}
+.conteiner:hover {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.imagem {
+    width: 150px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+}
+.desc {
+    width: 136px;
+    height: 100px;
+    background-color: #fff;
+    padding: 10px 7px;   
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.reset{
+    padding: 0;
+    color: black;
+}
+
+.anothercontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 40px;
+}
+.pont {
+    margin-left: 150px;
+}
+.pont > a > img {
+    width: 20px;
+    margin-right: 5px;
+}
+.pont > a > h1 {
+    color: black;
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+td {
+    padding: 10px;
+}
+.esp {
+    background-color: #1E0F47;
+    color: #fff;
+    cursor: default;
+}
+.dados {
+    background-color: #e6e6e6;
+    cursor: default;
+}
+.meusdados {
+    background-color: #48A8DB;
+
+    cursor: default;
+}
+
+.jog {
+    margin-right: 150px;
+}
+.jog > img {
+    width: 20px;
+    margin-right: 5px;
+}
+.jog > h1 {
+    display: inline-block;
+    cursor: default;
+}
+.jog > div > div {
+    display: grid;
+    grid-template-columns: 110px 120px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 55px;
+}
+.empty > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.cj, .cjm  {
+    width: 120px;
+    transform: translateX(0px) scale(1);
+    transition: 0.5s;
+}
+.cj:hover  {
+    transform: translateX(0px) scale(1.2);
+    margin: 5px 0px;
+}
+.cjm:hover {
+    transform: translateX(0px) scale(1.2);
+    margin: 20px 0px;
+}
+.memory > div {
+    row-gap: 5px;
+}
+.memory > a > img {
+    margin: 15px 0px;
+}
+
+@media screen and (max-width: 1200px){
+    .logo{
+        display: none;
+    }
+    .cabecalho{
+        margin: 0;
+    }
+    .info{
+        float: none;
+        text-align: center;
+    }
+    .pont{
+        margin-left: 100px;
+    }
+}
